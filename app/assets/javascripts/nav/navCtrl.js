@@ -16,6 +16,6 @@ angular.module('flapNews')
   });
 
   $scope.$on('devise:logout', function(e, user) {
-    $scope.user = user;
+    $scope.user = {};
   });
 }]);
