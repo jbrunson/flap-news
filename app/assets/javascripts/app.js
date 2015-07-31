@@ -1,4 +1,4 @@
-angular.module('flapNews', ['ui.router', 'templates'])
+angular.module('flapNews', ['ui.router', 'templates', 'Devise'])
 .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
